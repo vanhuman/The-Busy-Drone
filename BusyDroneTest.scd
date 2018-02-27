@@ -4,8 +4,8 @@
 ~bd.endRegisterLoop( ); // use to end (registers won't work after this)
 
 // start/stop simplified version
-~bd.startRegisterControl();
-~bd.stopRegisterControl();
+// ~bd.startRegisterControl();
+// ~bd.stopRegisterControl();
 
 
 // register setting

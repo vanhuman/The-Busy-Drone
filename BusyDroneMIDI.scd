@@ -6,6 +6,7 @@
 	if( MIDIClient.destinations.size == 0 ) {
 		MIDIClient.init;
 	};
+	evt.m = nil;
 	evt.m = MIDIOut(0,
 		MIDIClient.destinations.detect({ |item|
 			var test1 = true, test2 = true;
